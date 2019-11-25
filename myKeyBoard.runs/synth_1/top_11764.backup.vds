@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Wed Nov 20 22:27:44 2019
+# Process ID: 11764
+# Current directory: F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.runs/synth_1
+# Command line: vivado.exe -log top.vds -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.runs/synth_1/top.vds
+# Journal file: F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5860 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:18 . Memory (MB): peak = 305.395 ; gain = 98.773
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/top.v:26]
+INFO: [Synth 8-638] synthesizing module 'PS2Receiver' [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/PS2Receiver.v:22]
+INFO: [Synth 8-638] synthesizing module 'debouncer' [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-256] done synthesizing module 'debouncer' (1#1) [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/debouncer.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/PS2Receiver.v:78]
+INFO: [Synth 8-638] synthesizing module 'HexToDec' [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/HexToDec.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HexToDec' (2#1) [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/HexToDec.v:23]
+INFO: [Synth 8-256] done synthesizing module 'PS2Receiver' (3#1) [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/PS2Receiver.v:22]
+INFO: [Synth 8-638] synthesizing module 'seg7decimal' [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/Seg_7_Display.v:21]
+INFO: [Synth 8-226] default block is never used [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/Seg_7_Display.v:43]
+INFO: [Synth 8-226] default block is never used [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/Seg_7_Display.v:58]
+INFO: [Synth 8-256] done synthesizing module 'seg7decimal' (4#1) [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/Seg_7_Display.v:21]
+WARNING: [Synth 8-3848] Net UART_TXD in module/entity top does not have driver. [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/top.v:34]
+INFO: [Synth 8-256] done synthesizing module 'top' (5#1) [F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/top.v:26]
+WARNING: [Synth 8-3331] design top has unconnected port UART_TXD
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 341.816 ; gain = 135.195
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 341.816 ; gain = 135.195
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1

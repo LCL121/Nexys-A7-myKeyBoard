@@ -2,4 +2,4 @@
 
 借鉴于**Digilent**[Nexys-A7-100T-Keyboard](https://github.com/Digilent/Nexys-A7-100T-Keyboard)
 
-最后版本注释会好一些，其他版本可能有些注释会有问题
+最后版本注释会好一些，其他版本可能有些注释会有问题，但是不排除最后的版本也有问题

@@ -1,5 +1,5 @@
 # Nexys-A7-myKeyBoard
 
-借鉴于**Digilent**[Nexys-A7-100T-Keyboard](https://github.com/Digilent/Nexys-A7-100T-Keyboard)
+Draw lessons from**Digilent**[Nexys-A7-100T-Keyboard](https://github.com/Digilent/Nexys-A7-100T-Keyboard)
 
-最后版本注释会好一些，其他版本可能有些注释会有问题，但是不排除最后的版本也有问题
+The final version of the comments will be better, and some of the other versions may have problems with the comments, but it is not ruled out that the final version is also problematic.

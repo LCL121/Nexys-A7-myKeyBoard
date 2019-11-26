@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module seg7diplay(
+module seg7Display(
     input dpjudge,//judgedp
     input reset,//reset
 	input [31:0] x,//keycode[31:0]

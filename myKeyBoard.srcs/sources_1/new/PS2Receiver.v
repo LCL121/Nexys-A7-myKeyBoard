@@ -376,7 +376,7 @@ module PS2Receiver(
 
     //将十六进制的数据转换十进制显示
     //并且判断阴极的状态
-    HexToDec one(keycode,keynegative,keyspot,keepcode,keyjudge);
+    HexToDecAndOther one(keycode,keynegative,keyspot,keepcode,keyjudge);
 
 
     //输出数据

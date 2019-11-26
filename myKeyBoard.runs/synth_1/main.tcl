@@ -15,7 +15,7 @@ set_property parent.project_path F:/yingjian/verilog/book/theMainDesign/myKeyBoa
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 read_verilog -library xil_defaultlib {
-  F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/HexToDec.v
+  F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/HexToDec_OtherOper.v
   F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/debouncer.v
   F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/Display.v
   F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/sources_1/new/PS2Receiver.v

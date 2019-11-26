@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module HexToDec(
+module HexToDecAndOther(
     input [31:0]hex,//keycode
     input keynegative,//keynegative
     input keyspot,//keyspot

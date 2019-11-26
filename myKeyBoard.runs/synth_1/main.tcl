@@ -28,9 +28,9 @@ read_xdc F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/const
 set_property used_in_implementation false [get_files F:/yingjian/verilog/book/theMainDesign/myKeyBoard/myKeyBoard.srcs/constrs_1/new/myKeyBoardX.xdc]
 
 
-synth_design -top top -part xc7a100tcsg324-1
+synth_design -top main -part xc7a100tcsg324-1
 
 
-write_checkpoint -force -noxdef top.dcp
+write_checkpoint -force -noxdef main.dcp
 
-catch { report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb }
+catch { report_utilization -file main_utilization_synth.rpt -pb main_utilization_synth.pb }

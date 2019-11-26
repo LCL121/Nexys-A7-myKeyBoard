@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module top(
+module main(
     input CLK100MHZ,//100MHZ的时钟信号
     input PS2_CLK,//ps2的时钟信号
     input PS2_DATA,//ps2每一个脉冲时，键盘传入的信号

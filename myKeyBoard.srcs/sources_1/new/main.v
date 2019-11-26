@@ -39,7 +39,7 @@ module top(
     );
 
     //七段数码管的显示
-    seg7decimal sevenSeg (
+    seg7display sevenSeg (
     .dpjudge(judgedp),
     .reset(reset),
     .x(keycode[31:0]),

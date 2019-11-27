@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sources_1/new/HexToDec_OtherOper.v"
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sources_1/new/debouncer.v"
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sources_1/new/Display.v"
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sources_1/new/PS2Receiver.v"
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sources_1/new/main.v"
+verilog xil_defaultlib  "../../../myKeyBoard.srcs/sim_1/new/myKeyboardSim.v"
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1574779868">
-  <File Type="OPT-DCP" Name="main_opt.dcp"/>
   <File Type="ROUTE-STATUS-PB" Name="main_route_status.pb"/>
   <File Type="PA-TCL" Name="main.tcl"/>
+  <File Type="OPT-DCP" Name="main_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="main_timing_summary_init.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="main_methodology_drc_opted.rpt"/>
   <File Type="RDI-RDI" Name="main.vdi"/>
   <File Type="PWROPT-DRC" Name="main_drc_pwropted.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="main_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="main_timing_summary_init.rpt"/>
   <File Type="OPT-DRC" Name="main_drc_opted.rpt"/>
   <File Type="PWROPT-DCP" Name="main_pwropt.dcp"/>
   <File Type="OPT-HWDEF" Name="main.hwdef"/>
@@ -31,8 +31,8 @@
   <File Type="ROUTE-DRC" Name="main_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="main_drc_routed.pb"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="main_methodology_drc_routed.rpt"/>
-  <File Type="BG-BIT" Name="main.bit"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="main_methodology_drc_routed.pb"/>
+  <File Type="BG-BIT" Name="main.bit"/>
   <File Type="ROUTE-PWR" Name="main_power_routed.rpt"/>
   <File Type="ROUTE-PWR-SUM" Name="main_power_summary_routed.pb"/>
   <File Type="ROUTE-PWR-RPX" Name="main_power_routed.rpx"/>

@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date             : Tue Nov 26 22:55:07 2019
+| Date             : Fri Nov 29 17:04:28 2019
 | Host             : DESKTOP-NN8DFLV running 64-bit major release  (build 9200)
 | Command          : report_power -file main_power_routed.rpt -pb main_power_summary_routed.pb -rpx main_power_routed.rpx
 | Design           : main
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.189 |
-| Dynamic (W)              | 0.091 |
+| Total On-Chip Power (W)  | 0.190 |
+| Dynamic (W)              | 0.092 |
 | Device Static (W)        | 0.097 |
 | Effective TJA (C/W)      | 4.6   |
 | Max Ambient (C)          | 84.1  |
@@ -51,17 +51,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
 | Slice Logic    |     0.040 |     5158 |       --- |             --- |
-|   LUT as Logic |     0.037 |     3451 |     63400 |            5.44 |
+|   LUT as Logic |     0.037 |     3446 |     63400 |            5.44 |
 |   CARRY4       |     0.003 |      648 |     15850 |            4.09 |
 |   Register     |    <0.001 |      123 |    126800 |            0.10 |
 |   F7/F8 Muxes  |    <0.001 |       17 |     63400 |            0.03 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |       12 |       --- |             --- |
-| Signals        |     0.033 |     4279 |       --- |             --- |
+| Signals        |     0.034 |     4281 |       --- |             --- |
 | DSPs           |     0.002 |        2 |       240 |            0.83 |
-| I/O            |     0.015 |       26 |       210 |           12.38 |
+| I/O            |     0.015 |       27 |       210 |           12.86 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.189 |          |           |                 |
+| Total          |     0.190 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.091 |       0.076 |      0.015 |
+| Vccint    |       1.000 |     0.092 |       0.077 |      0.015 |
 | Vccaux    |       1.800 |     0.019 |       0.001 |      0.018 |
 | Vcco33    |       3.300 |     0.008 |       0.004 |      0.004 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
@@ -140,10 +140,10 @@ Table of Contents
 +--------------+-----------+
 | Name         | Power (W) |
 +--------------+-----------+
-| main         |     0.091 |
-|   keyboard   |     0.075 |
+| main         |     0.092 |
+|   keyboard   |     0.076 |
 |     debounce |    <0.001 |
-|     one      |     0.066 |
+|     one      |     0.067 |
 |   sevenSeg   |     0.001 |
 +--------------+-----------+
 

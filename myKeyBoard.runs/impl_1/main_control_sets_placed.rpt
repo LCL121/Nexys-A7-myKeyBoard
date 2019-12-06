@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.2 (win64) Build 1577090 Thu Jun  2 16:32:40 MDT 2016
-| Date         : Tue Nov 26 22:54:10 2019
+| Date         : Fri Nov 29 17:02:44 2019
 | Host         : DESKTOP-NN8DFLV running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file main_control_sets_placed.rpt
 | Design       : main
@@ -33,11 +33,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              43 |           16 |
-| No           | No                    | Yes                    |              26 |           18 |
+| No           | No                    | No                     |              43 |           15 |
+| No           | No                    | Yes                    |              26 |           19 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |              13 |            9 |
-| Yes          | No                    | Yes                    |              32 |           16 |
+| Yes          | No                    | No                     |              13 |            8 |
+| Yes          | No                    | Yes                    |              32 |           15 |
 | Yes          | Yes                   | No                     |               9 |            3 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -57,11 +57,11 @@ Table of Contents
 | ~keyboard/debounce/kclkf | keyboard/cnt                      | keyboard/cnt[3]_i_1_n_0       |                1 |              4 |
 |  CLK50MHZ                |                                   |                               |                2 |              5 |
 |  CLK50MHZ                | keyboard/debounce/cnt1[4]_i_1_n_0 | keyboard/debounce/Iv1_i_1_n_0 |                2 |              5 |
-|  flag                    | keyboard/dataprev[7]_i_1_n_0      |                               |                4 |              8 |
+|  flag                    | keyboard/dataprev[7]_i_1_n_0      |                               |                3 |              8 |
 | ~keyboard/debounce/kclkf |                                   |                               |                3 |              9 |
-|  CLK100MHZ_IBUF_BUFG     |                                   |                               |                9 |             26 |
-|  flag                    |                                   | reset_IBUF                    |               18 |             26 |
-|  flag                    | keyboard/keycode[31]_i_1_n_0      | reset_IBUF                    |               16 |             32 |
+|  CLK100MHZ_IBUF_BUFG     |                                   |                               |                8 |             26 |
+|  flag                    |                                   | reset_IBUF                    |               19 |             26 |
+|  flag                    | keyboard/keycode[31]_i_1_n_0      | reset_IBUF                    |               15 |             32 |
 +--------------------------+-----------------------------------+-------------------------------+------------------+----------------+
 
 

@@ -10,7 +10,7 @@ module main(
     output [7:0]AN,//7段数码管的8个阴极
     output DP,//7段数码管的小数点
     output [3:0]led,//标记现在使用了什么运算
-    output infinite,//标记数据是不是无穷
+    output [1:0]rled,//标记数据是不是无穷
     output UART_TXD//TXD和RXD分别是串行收发信号
     );
     
@@ -18,6 +18,7 @@ module main(
     wire [31:0]keycode;//32位数据
     wire judgedp;//标志小数点的显示
     wire [7:0]judgean;//标志阴极是否有效
+    wire infinite;//红色led
 
     //将100MHZ的时钟信号转换成50MHZ的时钟信号
     always @(posedge(CLK100MHZ))begin
@@ -37,6 +38,8 @@ module main(
     .infinite(infinite),
     .TXD(UART_TXD)
     );
+
+    assign rled = {infinite, infinite};
 
     //七段数码管的显示
     seg7Display sevenSeg (
